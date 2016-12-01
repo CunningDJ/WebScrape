@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from urllib2 import urlopen, quote, HTTPError
 from PIL import Image
 import cStringIO
-from os import path, mkdir, makedirs
+from os import path, makedirs
 import urlparse as up
 from threading import Thread
 
